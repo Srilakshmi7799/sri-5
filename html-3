@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Color Examples</title>
+    <style>
+        /* Basic Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Styling with Named Colors */
+        .named-color {
+            color: green; /* Named Color: Green */
+        }
+
+        /* Styling with Hexadecimal Colors */
+        .hex-color {
+            color: #FF5733; /* Hex Color: Orange-Red */
+        }
+
+        /* Styling with RGB */
+        .rgb-color {
+            color: rgb(0, 0, 255); /* RGB Color: Blue */
+        }
+
+        /* Styling with RGBA */
+        .rgba-color {
+            color: rgba(255, 0, 0, 0.5); /* RGBA Color: Red with 50% Transparency */
+        }
+
+        /* Styling with HSL */
+        .hsl-color {
+            color: hsl(120, 100%, 50%); /* HSL Color: Green */
+        }
+
+        /* Styling with HSLA */
+        .hsla-color {
+            color: hsla(240, 100%, 50%, 0.3); /* HSLA Color: Blue with 30% Transparency */
+        }
+
+        /* Background Color with RGBA */
+        .background-rgba {
+            background-color: rgba(0, 255, 0, 0.3); /* RGBA Background: Green with Transparency */
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        /* Shorthand Hex Color */
+        .shorthand-hex {
+            color: #F00; /* Shorthand Hex: Red */
+        }
+
+        /* Transparent Background */
+        .transparent-background {
+            background-color: rgba(255, 255, 0, 0.5); /* Transparent Yellow */
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        /* Border with Color */
+        .border-color {
+            border: 2px solid rgb(0, 0, 255); /* Border with RGB Blue */
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>HTML Colors Example</h1>
+    <p class="named-color">This text is <strong>green</strong> using a <em>named color</em>.</p>
+    <p class="hex-color">This text is <strong>orange-red</strong> using a <em>hexadecimal color</em>.</p>
+    <p class="rgb-color">This text is <strong>blue</strong> using <em>RGB</em> values (rgb(0, 0, 255)).</p>
+    <p class="rgba-color">This text is <strong>semi-transparent red</strong> using <em>RGBA</em> (rgba(255, 0, 0, 0.5)).</p>
+    <p class="hsl-color">This text is <strong>green</strong> using <em>HSL</em> values (hsl(120, 100%, 50%)).</p>
+    <p class="hsla-color">This text is <strong>semi-transparent blue</strong> using <em>HSLA</em> (hsla(240, 100%, 50%, 0.3)).</p>
+    
+    <!-- Background with Transparent Color -->
+    <div class="background-rgba">
+        This is a background with <strong>RGBA green</strong> (rgba(0, 255, 0, 0.3)).
+    </div>
+
+    <!-- Shorthand Hex Color Example -->
+    <p class="shorthand-hex">This text is <strong>red</strong> using a <em>shorthand hex</em> color (#F00).</p>
+
+    <!-- Transparent Background Example -->
+    <div class="transparent-background">
+        This box has a <strong>semi-transparent yellow</strong> background (rgba(255, 255, 0, 0.5)).
+    </div>
+
+    <!-- Border with RGB Color -->
